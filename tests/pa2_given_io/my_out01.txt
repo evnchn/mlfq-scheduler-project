@@ -1,0 +1,9 @@
+queue_num = 3
+time_quantum = 2 4 1000 
+process_table = 
+Process	Arrival	Burst
+P1	0	7
+P2	1	1
+P3	4	1
+P4	6	3
+Gantt Chart = 0 P1 3 P2 4 P3 5 P1 6 P4 8 P1 11 P4 12 
